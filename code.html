@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Heritage Modern Remodeling</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#1b1c19",
+                        "on-background": "#1b1c19",
+                        "error": "#ba1a1a",
+                        "outline": "#7f7667",
+                        "inverse-primary": "#e9c176",
+                        "on-tertiary-fixed": "#1b1c1b",
+                        "secondary-fixed": "#ffdbc9",
+                        "inverse-on-surface": "#f2f1ec",
+                        "on-primary": "#ffffff",
+                        "surface": "#fbf9f4",
+                        "secondary-fixed-dim": "#ffb68c",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#4e3700",
+                        "on-surface-variant": "#4e4639",
+                        "on-tertiary-fixed-variant": "#474745",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#ffdea5",
+                        "surface-container-highest": "#e4e2dd",
+                        "surface-bright": "#fbf9f4",
+                        "on-secondary-container": "#783603",
+                        "secondary-container": "#ffa26a",
+                        "surface-variant": "#e4e2dd",
+                        "surface-dim": "#dbdad5",
+                        "on-secondary-fixed": "#321200",
+                        "secondary": "#934b19",
+                        "on-primary-fixed": "#261900",
+                        "primary-fixed-dim": "#e9c176",
+                        "primary": "#775a19",
+                        "on-tertiary-container": "#3b3b3a",
+                        "inverse-surface": "#30312e",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#a7a5a3",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "background": "#fbf9f4",
+                        "tertiary-fixed-dim": "#c8c6c4",
+                        "surface-container-low": "#f5f3ee",
+                        "surface-tint": "#775a19",
+                        "primary-container": "#c5a059",
+                        "surface-container": "#f0eee9",
+                        "surface-container-high": "#eae8e3",
+                        "on-secondary-fixed-variant": "#753401",
+                        "outline-variant": "#d1c5b4",
+                        "tertiary": "#5f5e5d",
+                        "tertiary-fixed": "#e4e2e0",
+                        "on-primary-fixed-variant": "#5d4201"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "gutter": "24px",
+                        "base": "8px",
+                        "section-gap": "120px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["EB Garamond"],
+                        "display-lg": ["EB Garamond"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "display-lg-mobile": ["EB Garamond"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-caps": ["Hanken Grotesk"],
+                        "headline-md": ["EB Garamond"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- HEADER (TopNavBar) -->
+<header class="bg-surface/90 backdrop-blur-md dark:bg-surface-dim/90 docked full-width top-0 sticky border-b border-on-surface/10 shadow-sm z-50 transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center w-full px-gutter max-w-container-max mx-auto h-20">
+<!-- Logo -->
+<a class="font-display-lg text-headline-md text-on-surface dark:text-on-surface tracking-tight" href="#" style="font-size: 28px;">
+                Heritage Modern
+            </a>
+<!-- Navigation Links -->
+<nav class="hidden md:flex space-x-8">
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low/50 dark:hover:bg-surface-container-high/50 px-3 py-2 rounded-DEFAULT" href="#servicios">Servicios</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low/50 dark:hover:bg-surface-container-high/50 px-3 py-2 rounded-DEFAULT" href="#proyectos">Proyectos</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low/50 dark:hover:bg-surface-container-high/50 px-3 py-2 rounded-DEFAULT" href="#proceso">Proceso</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low/50 dark:hover:bg-surface-container-high/50 px-3 py-2 rounded-DEFAULT" href="#sobre-nosotros">Nosotros</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low/50 dark:hover:bg-surface-container-high/50 px-3 py-2 rounded-DEFAULT" href="#contacto">Contacto</a>
+</nav>
+<!-- Actions -->
+<div class="flex items-center space-x-4">
+<a class="hidden md:flex items-center text-on-surface-variant hover:text-primary transition-colors" href="tel:+34900111222">
+<span class="material-symbols-outlined mr-2 text-[20px]" data-icon="call">call</span>
+<span class="font-label-caps text-label-caps">+34 900 111 222</span>
+</a>
+<a class="bg-primary-container text-on-primary-container px-6 py-3 rounded-DEFAULT font-label-caps text-label-caps hover:bg-primary hover:text-on-primary transition-colors" href="#contacto">
+                    Solicitar Presupuesto
+                </a>
+</div>
+</div>
+</header>
+<!-- HERO -->
+<section class="relative pt-32 pb-24 px-gutter max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="col-span-12 md:col-span-6 z-10 pr-0 md:pr-12">
+<h1 class="font-display-lg text-display-lg text-on-surface mb-6">
+                Transformamos tu hogar con maestría
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-lg">
+                Reformas integrales de lujo que combinan proporciones clásicas con minimalismo contemporáneo. Artesanía y calidad en cada detalle de tu nuevo espacio.
+            </p>
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+<a class="bg-primary-container text-on-primary-container px-8 py-4 rounded-DEFAULT font-label-caps text-label-caps hover:bg-primary hover:text-on-primary transition-colors text-center w-full sm:w-auto" href="#contacto">
+                    Solicitar Presupuesto
+                </a>
+<div class="flex items-center gap-3">
+<div class="flex text-primary-container">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant text-sm">
+                        4.9/5 en Google · +200 reformas
+                    </span>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-6 relative mt-12 md:mt-0">
+<div class="relative w-full aspect-[4/5] md:aspect-[3/4] p-1 bg-surface-container-low border border-outline-variant/30 rounded-DEFAULT overflow-hidden">
+<div class="bg-cover bg-center w-full h-full rounded-DEFAULT shadow-sm" data-alt="A luxurious, modern living room interior with classical architectural details like crown molding. Large windows let in soft, natural daylight. The color palette features warm whites, soft greys, and subtle gold accents. High-end, minimalist furniture with rich textures creates a serene, premium atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCrvo3j95tdAAEo45e2H9J1OUXmXxl4elRxqX9E2e7gRZjZRLrFsC2DyagbuN5uL1DlyFiERmJ2V_psrWuPMuorJQdq3JF2vH-GmDQ6nYJkSYJd9skROlgZ8mDkgkCn3Of1DjmqKn5ArlLX0it7wRC52EUMMAOeaXZh-LhIXIIGhuMtxLhWI3c2NY2P7CQP6Z6UqeByQurbuGITUIDGqPcU3kxaL4UC0xHZk-yKxxBZipnPuHxRJbex1Q')"></div>
+</div>
+<!-- Decorative accent -->
+<div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary-fixed/20 rounded-full blur-2xl -z-10"></div>
+</div>
+</section>
+<!-- TRUST BAR -->
+<section class="py-12 bg-surface-container-low border-y border-outline-variant/20">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="flex flex-wrap justify-center gap-12 md:gap-24 opacity-70">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]" data-icon="verified">verified</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Seguro a Todo Riesgo</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]" data-icon="workspace_premium">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Garantía de 5 Años</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]" data-icon="handyman">handyman</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Artesanos Certificados</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SERVICIOS -->
+<section class="py-24 px-gutter max-w-container-max mx-auto" id="servicios">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Nuestros Servicios</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Especialistas en transformar espacios con materiales de primera calidad y acabados impecables.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-low p-8 rounded-DEFAULT border border-outline-variant/30 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-6">home_work</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Reformas Integrales</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Transformamos viviendas completas, optimizando la distribución y renovando todas las instalaciones para un hogar moderno y funcional.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-DEFAULT border border-outline-variant/30 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-6">countertops</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Cocinas de Diseño</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Creamos el corazón de tu hogar con mobiliario a medida, encimeras premium y electrodomésticos integrados de última generación.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-DEFAULT border border-outline-variant/30 hover:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-6">bathtub</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Baños Spa</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Diseñamos oasis de relajación con grifería empotrada, platos de ducha a ras de suelo y revestimientos porcelánicos de gran formato.</p>
+</div>
+</div>
+</section>
+<!-- 5. ANTES Y DESPUÉS -->
+<section class="py-24 bg-surface-container-low px-gutter border-y border-outline-variant/20" id="antes-despues">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">La Transformación</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">El poder de un buen diseño y ejecución. Descubre cómo renovamos por completo estos espacios.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-6">Proyecto Salamanca</h3>
+<div class="flex flex-col gap-4">
+<div class="relative aspect-video rounded-DEFAULT overflow-hidden border border-outline-variant/30">
+<img alt="Cocina Antes" class="w-full h-full object-cover filter grayscale opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrc4mNmDUdYCoU0ISF65LWIPhTJuXrHeKI3fKMHaO1AA46X9eXjmlteBVd9KZ0VOMxldODIocgHI2usrp_r2aj0s2nE-xWV1gbaD6yCmhO97sMPKxcsAHd2GVplrwb9cHLYmmmwvJJIvSbAV6vTnN5vIj-AqP9h61wRjbNW7cEsbVT51TcXV3MhvtSqiaMbAEQkeLHtQd_H7ZbTdPDqWp2aOb2YQKNIEFlFxMlf81YT309njyGhSirEg"/>
+<div class="absolute top-4 left-4 bg-surface/90 px-3 py-1 rounded font-label-caps text-xs">ANTES</div>
+</div>
+<div class="relative aspect-video rounded-DEFAULT overflow-hidden border border-outline-variant/30 shadow-md">
+<img alt="Cocina Después" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbkHLror5fw0f2qrzCcCfX9qHALOYsligj2Ab9VnG4WYZlfDv5gyw4uztZ4XpeImr2uGTPgaAgPbRzvunwNZrM3zU8MqHT4P2NY0SzaWihATsi_iPcrkzyi9D18zYC1aL1AKTCO_uwL40Hh-PnbjDhpgvA_HhOt02Zwp2YjINL-qJ-EfANhybtpI3EMiMqko2rQFGfMB4LA1Zkdt8x8i_bDIhQ05BguIVlRC9_X3mmntypcojZpUrTKQ"/>
+<div class="absolute top-4 left-4 bg-primary-container text-on-primary-container px-3 py-1 rounded font-label-caps text-xs">DESPUÉS</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-6">Ático Chamberí</h3>
+<div class="flex flex-col gap-4">
+<div class="relative aspect-video rounded-DEFAULT overflow-hidden border border-outline-variant/30">
+<img alt="Baño Antes" class="w-full h-full object-cover filter grayscale opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOfAsSHlFGRf3dN-Lcgj-gwAd5ihx0bfZ9s_gTEM642b7iRuSzTJtigH61vTWj1KMVrnNbdy_nIfSKJ0w7UGpqa_rry60NUOM9F73OgXrL4KnK3V57_m6lPM7RZwWH3K4AtyFmqWZw23WSQGEbigLj0OopI9BBKt1SAKede4wmVb7LuDFN_pZVofamFzuGzQ2K6pe5B8w0uDI5oaxHv-dxQ7jk4rLhJUH8Q2EcyK5tm495lglvhXvTNQ"/>
+<div class="absolute top-4 left-4 bg-surface/90 px-3 py-1 rounded font-label-caps text-xs">ANTES</div>
+</div>
+<div class="relative aspect-video rounded-DEFAULT overflow-hidden border border-outline-variant/30 shadow-md">
+<img alt="Baño Después" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzw_-fSvC35duHGmeDw8rgkxuqh3nmd6Ts1Lin8IBG6BRgKecSRmgp46plYpqHAPllaYaOlK2lCKq7kBWH8PH6uNwbGSaZrhJKLNmI7nBvcaspr_fSeY2TfMt1pb79AVw9PWpjnwNqLncEbXc2FvEyjqZGgKHg1Nk-622oU70qdO5TIu_fVeHSNgt1TkIxA0Wqf0BWdd0H3qFeISvXCnkIWd5ryzLpdNXPIq6gwoqC_1LRine63aSLAw"/>
+<div class="absolute top-4 left-4 bg-primary-container text-on-primary-container px-3 py-1 rounded font-label-caps text-xs">DESPUÉS</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CÓMO TRABAJAMOS -->
+<section class="py-24 px-gutter max-w-container-max mx-auto" id="proceso">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Nuestro Proceso</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Un método estructurado para garantizar resultados excelentes y tranquilidad durante toda la obra.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="w-20 h-20 bg-surface-container-low rounded-full flex items-center justify-center mx-auto mb-6 border border-outline-variant/30 text-primary-container text-3xl">
+<span class="material-symbols-outlined">forum</span>
+</div>
+<h3 class="font-headline-md text-xl text-on-surface mb-3">1. Consulta Gratuita</h3>
+<p class="font-body-md text-on-surface-variant">Visitamos tu espacio, escuchamos tus ideas y tomamos medidas iniciales sin compromiso.</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 bg-surface-container-low rounded-full flex items-center justify-center mx-auto mb-6 border border-outline-variant/30 text-primary-container text-3xl">
+<span class="material-symbols-outlined">design_services</span>
+</div>
+<h3 class="font-headline-md text-xl text-on-surface mb-3">2. Diseño y Presupuesto</h3>
+<p class="font-body-md text-on-surface-variant">Presentamos propuestas 3D, selección de materiales y un presupuesto detallado y cerrado.</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 bg-surface-container-low rounded-full flex items-center justify-center mx-auto mb-6 border border-outline-variant/30 text-primary-container text-3xl">
+<span class="material-symbols-outlined">construction</span>
+</div>
+<h3 class="font-headline-md text-xl text-on-surface mb-3">3. Ejecución</h3>
+<p class="font-body-md text-on-surface-variant">Nuestro equipo de artesanos comienza la obra bajo la supervisión constante de un jefe de proyecto.</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 bg-surface-container-low rounded-full flex items-center justify-center mx-auto mb-6 border border-outline-variant/30 text-primary-container text-3xl">
+<span class="material-symbols-outlined">task_alt</span>
+</div>
+<h3 class="font-headline-md text-xl text-on-surface mb-3">4. Entrega y Garantía</h3>
+<p class="font-body-md text-on-surface-variant">Limpieza final, revisión exhaustiva y entrega de llaves con nuestra garantía de 5 años.</p>
+</div>
+</div>
+</section>
+<!-- 7. PROYECTOS RECIENTES -->
+<section class="py-24 bg-surface-container-lowest px-gutter border-y border-outline-variant/20" id="proyectos">
+<div class="max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Proyectos Recientes</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Explora nuestra selección de reformas recientes y encuentra inspiración para tu próximo proyecto.</p>
+</div>
+<a class="font-label-caps text-primary hover:text-primary-container transition-colors flex items-center gap-2" href="#">
+                VER TODOS LOS PROYECTOS <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="group relative rounded-DEFAULT overflow-hidden aspect-[4/3] cursor-pointer">
+<img alt="Salón Moderno" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALnCWWqb0gX9DeKYqrzbV8Ntk2WKD7HT0OjuoGpIjkDC2_vwZH8Uj1msuZtDdAv84pKNtHWift82bz2J7rPUllxH9cFaAGi9RgbQa6ES5aB99t67TpcDDB-YsQoRoaAoarfIhLpSoIBlckHpti_v0pj2Rh1lD43AeM6YM2YwvygszbW0fgc25-TrXZspjjT-XwT4ycoAiYV_0KUnlu38EXBI4dL_VhBBLZHGq7FgURt5Hd6JJ7MO1Afg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<span class="inline-block bg-primary-container/90 text-on-primary-container px-2 py-1 rounded text-xs font-label-caps mb-3">REFORMA INTEGRAL</span>
+<h3 class="font-headline-md text-white text-2xl">Villa Retiro</h3>
+</div>
+</div>
+<div class="group relative rounded-DEFAULT overflow-hidden aspect-[4/3] cursor-pointer">
+<img alt="Cocina Abierta" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpwcXG-B8c9iodSBunp4isA2NI8TVAqJ0Zja-L9enoDlOED93c1DrY9fqNisxztPJqOFz8MClihBXvzYHi4_6VFrSrS0a5uTd_uwlHp1xquM75qKmaAINnsEQYM0bWjh44-XtLHL40MDgLeJLTMAKTtAottrCvMMvMHu1kNGPYflvRoy0lhLSebD7b892DXbWOhfz8r9g8FgG6Q5jsNq5EPDpHpmvL2pK9RwL5NVYKga_CtG-ZJBLaWA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<span class="inline-block bg-primary-container/90 text-on-primary-container px-2 py-1 rounded text-xs font-label-caps mb-3">COCINA Y SALÓN</span>
+<h3 class="font-headline-md text-white text-2xl">Loft Justicia</h3>
+</div>
+</div>
+<div class="group relative rounded-DEFAULT overflow-hidden aspect-[4/3] cursor-pointer">
+<img alt="Baño Lujo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJ1VyadFan4XjNbJ7itEklLW0bhv1Tk45vJPperILUxiN-ESW4L3fcwC5_hXuTXa0t-1nj3zT1G4XONVSncodFVTTJlUtvXFJhlXt07gKXKjpcxFDCbSDwy_Ng7_Zreg1yydwgUSR9OznHG4Hq0XYH5EUYvBVOTaaZLKM71Y_QtJHWi12TBGHfPMDeABZLPss8gshEhjHdgmx5pp0jEseDDbdsY73uHcuUuWAYmJnGGloAKytSXRxejw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<span class="inline-block bg-primary-container/90 text-on-primary-container px-2 py-1 rounded text-xs font-label-caps mb-3">BAÑO MASTER</span>
+<h3 class="font-headline-md text-white text-2xl">Residencial Chamartín</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. TESTIMONIOS -->
+<section class="py-24 px-gutter max-w-container-max mx-auto" id="testimonios">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Lo que dicen nuestros clientes</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-low p-8 rounded-DEFAULT border border-outline-variant/30">
+<div class="flex text-primary-container mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-on-surface-variant italic mb-6">"El nivel de detalle y profesionalidad superó nuestras expectativas. Cumplieron los plazos y el presupuesto al céntimo. Nuestra nueva cocina es el centro de atención."</p>
+<div class="flex items-center gap-4">
+<img alt="María G." class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsIHHHMtHlSLPQ-xbpAAIgzoB2Pm8b5bUPFpZ9sQwHoZMFX69ajh8Jex_Nh4UsziDFoYgB5j2XeGqQ3f9cSKy72vxr0MCbFoAvKUyPyGXyHay8I_nT-9RY7AGlHx0rJytb6TqcBYlxIcAcvOKtKEVC2kS66sxcXF3PzGRAlTLi0fpf-qwJUhim3zAo0lvgKBP9dk48kekieuQIC2A4bSLvB6c_yvvbpt8CuKM8NKQ96sgb6M0Wg7ORow"/>
+<div>
+<p class="font-label-caps text-on-surface font-semibold">María Gómez</p>
+<p class="text-sm text-on-surface-variant">Reforma Cocina</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-8 rounded-DEFAULT border border-outline-variant/30">
+<div class="flex text-primary-container mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-on-surface-variant italic mb-6">"Transformaron nuestro antiguo piso en un espacio luminoso y moderno conservando las molduras originales. Un trabajo impecable de principio a fin."</p>
+<div class="flex items-center gap-4">
+<img alt="Carlos M." class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLMTLJVriIbKyeOxyC01W553-yRYR1NDTIpsh0T5LUQVgGz2pvEONdcuKh31rSi7LRrpKGafyh3cGiA8XQEz4_8IHzgMDAzo8QJL0yyhkmCGjA_fHoMlXNwRJWE-ysWMD2bGbFal2B0VGNpHXGSBH7OUMphIKbuzjhvAa4j3WcBPvmb5VaiqcvbXn1iEMWCAa6igs5jNrSgdl7azXOJy2XW5rrpZDKfYC4M9biz4Mu7iH_GI_DFzmZ8A"/>
+<div>
+<p class="font-label-caps text-on-surface font-semibold">Carlos Martínez</p>
+<p class="text-sm text-on-surface-variant">Reforma Integral</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-8 rounded-DEFAULT border border-outline-variant/30">
+<div class="flex text-primary-container mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<p class="font-body-md text-on-surface-variant italic mb-6">"Muy recomendables. Nos asesoraron genialmente con los materiales y el equipo de obra fue muy limpio y respetuoso con los vecinos."</p>
+<div class="flex items-center gap-4">
+<img alt="Laura V." class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkoob6YfmlvzqwNPpL3juJRnrrMM5k6lg27oML8-52PpSoE7U_WglceDXnmU9kV9efYaL4iW__LVOVeGCyUPpx44F4RrYkZ_l4sr--D9EPjMM-Ca8CSkngf94-aBDUNMRXMQjTAYvjgunDin6h43OWfHfGXBudDUudRd9ZdCRC7U_Rct-9tlnMIMazYYkg9iElEW0mHyCuZIBMq7XqGmjvRgiE6VmcyQTZFGL9DQHdQCDYuiu9iEI9CQ"/>
+<div>
+<p class="font-label-caps text-on-surface font-semibold">Laura Vargas</p>
+<p class="text-sm text-on-surface-variant">Reforma Baños</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. SOBRE NOSOTROS -->
+<section class="py-24 bg-surface-container-low px-gutter border-y border-outline-variant/20" id="sobre-nosotros">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="order-2 md:order-1">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Artesanía y Vanguardia</h2>
+<p class="font-body-lg text-on-surface-variant mb-6">
+                Fundada hace más de 15 años, Heritage Modern nació con la visión de elevar el estándar de las reformas residenciales en la ciudad. Creemos que cada hogar tiene un alma y nuestro trabajo es realzarla.
+            </p>
+<p class="font-body-lg text-on-surface-variant mb-8">
+                Combinamos técnicas artesanales tradicionales con las últimas innovaciones en materiales y domótica para crear espacios que no solo son estéticamente bellos, sino profundamente funcionales y duraderos.
+            </p>
+<div class="grid grid-cols-2 gap-6 border-t border-outline-variant/30 pt-8">
+<div>
+<p class="font-display-lg text-primary-container text-4xl mb-2">+15</p>
+<p class="font-label-caps text-on-surface-variant">AÑOS DE EXPERIENCIA</p>
+</div>
+<div>
+<p class="font-display-lg text-primary-container text-4xl mb-2">+200</p>
+<p class="font-label-caps text-on-surface-variant">PROYECTOS ENTREGADOS</p>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2 relative">
+<img alt="Equipo Heritage Modern" class="w-full rounded-DEFAULT shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6sUNiIwTKWZuHEJiOw7CzBp9LO0qyEreFjdcZnrRct7u3v2hRAQNgdCGDptrfkuBicPhDoNYTnL73kI1PeAhejzwxBLt6_Aghbc0MUYo00FuMv6ndZ0pI1hb8pbaMuP5Gy0Ppbdu5qiVkDLdGI6ooQIsn9cJYrJs9xHUSg0sygyM9ZwAjP-pViNzN8DrOXrY8ZijtQfQtMJ9KD0an3wHCQHCYJP4WE2L-uYg-0sZ4ZNEtD9qRsAMiTA"/>
+<div class="absolute -bottom-6 -left-6 bg-surface p-6 rounded-DEFAULT shadow-xl border border-outline-variant/20 hidden md:block">
+<p class="font-headline-md text-on-surface">"La calidad nunca es un accidente."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. PREGUNTAS FRECUENTES -->
+<section class="py-24 px-gutter max-w-3xl mx-auto" id="faq">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Preguntas Frecuentes</h2>
+<p class="font-body-lg text-on-surface-variant">Resolvemos las dudas más comunes sobre nuestro proceso de reforma.</p>
+</div>
+<div class="space-y-4">
+<details class="group bg-surface-container-low rounded-DEFAULT border border-outline-variant/30">
+<summary class="flex justify-between items-center font-headline-md text-lg p-6 cursor-pointer text-on-surface list-none">
+                ¿Cuánto dura una reforma integral?
+                <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-6 pb-6 pt-0 font-body-md text-on-surface-variant">
+                El tiempo estimado varía según la complejidad y tamaño de la vivienda. Una reforma integral estándar (80-100m²) suele durar entre 3 y 4 meses desde el inicio de la demolición.
+            </div>
+</details>
+<details class="group bg-surface-container-low rounded-DEFAULT border border-outline-variant/30">
+<summary class="flex justify-between items-center font-headline-md text-lg p-6 cursor-pointer text-on-surface list-none">
+                ¿Se encargan de tramitar los permisos?
+                <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-6 pb-6 pt-0 font-body-md text-on-surface-variant">
+                Sí, gestionamos todas las licencias de obra necesarias con el ayuntamiento y la comunicación con la comunidad de vecinos para que no tengas que preocuparte de nada.
+            </div>
+</details>
+<details class="group bg-surface-container-low rounded-DEFAULT border border-outline-variant/30">
+<summary class="flex justify-between items-center font-headline-md text-lg p-6 cursor-pointer text-on-surface list-none">
+                ¿Qué incluye la garantía de 5 años?
+                <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-6 pb-6 pt-0 font-body-md text-on-surface-variant">
+                Nuestra garantía cubre cualquier vicio oculto o defecto de ejecución en instalaciones (fontanería, electricidad), albañilería y acabados realizados por nuestro equipo.
+            </div>
+</details>
+<details class="group bg-surface-container-low rounded-DEFAULT border border-outline-variant/30">
+<summary class="flex justify-between items-center font-headline-md text-lg p-6 cursor-pointer text-on-surface list-none">
+                ¿Ofrecen opciones de financiación?
+                <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-6 pb-6 pt-0 font-body-md text-on-surface-variant">
+                Trabajamos con varias entidades financieras para ofrecer planes de pago fraccionado hasta en 48 meses con condiciones muy competitivas.
+            </div>
+</details>
+<details class="group bg-surface-container-low rounded-DEFAULT border border-outline-variant/30">
+<summary class="flex justify-between items-center font-headline-md text-lg p-6 cursor-pointer text-on-surface list-none">
+                ¿Cómo se calcula el presupuesto inicial?
+                <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-6 pb-6 pt-0 font-body-md text-on-surface-variant">
+                Elaboramos mediciones detalladas in situ y valoramos cada partida (demolición, albañilería, instalaciones, revestimientos) basándonos en las calidades elegidas durante la fase de diseño. Es un presupuesto cerrado sin sorpresas.
+            </div>
+</details>
+</div>
+</section>
+<!-- 11. FORMULARIO DE CONTACTO -->
+<section class="py-24 bg-surface-container-low border-t border-outline-variant/20" id="contacto">
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 lg:grid-cols-2 gap-16">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Empecemos tu proyecto</h2>
+<p class="font-body-lg text-on-surface-variant mb-8">Cuéntanos qué tienes en mente. Nuestro equipo se pondrá en contacto contigo en menos de 24 horas para programar una visita gratuita.</p>
+<div class="space-y-6 mb-12">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container mt-1">location_on</span>
+<div>
+<h4 class="font-label-caps text-on-surface mb-1">ÁREA DE SERVICIO</h4>
+<p class="font-body-md text-on-surface-variant">Madrid Capital y Comunidad de Madrid (hasta 50km).</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container mt-1">mail</span>
+<div>
+<h4 class="font-label-caps text-on-surface mb-1">EMAIL</h4>
+<p class="font-body-md text-on-surface-variant">hola@heritagemodern.es</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container mt-1">call</span>
+<div>
+<h4 class="font-label-caps text-on-surface mb-1">TELÉFONO</h4>
+<p class="font-body-md text-on-surface-variant">+34 900 111 222</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface p-8 rounded-DEFAULT shadow-sm border border-outline-variant/30">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-caps text-on-surface-variant mb-2" for="nombre">Nombre completo</label>
+<input class="w-full bg-surface-container-low border-outline-variant/50 rounded focus:border-primary focus:ring-1 focus:ring-primary text-on-surface font-body-md px-4 py-3" id="nombre" placeholder="Ej. Ana García" type="text"/>
+</div>
+<div>
+<label class="block font-label-caps text-on-surface-variant mb-2" for="telefono">Teléfono</label>
+<input class="w-full bg-surface-container-low border-outline-variant/50 rounded focus:border-primary focus:ring-1 focus:ring-primary text-on-surface font-body-md px-4 py-3" id="telefono" placeholder="+34 600 000 000" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block font-label-caps text-on-surface-variant mb-2" for="email">Email</label>
+<input class="w-full bg-surface-container-low border-outline-variant/50 rounded focus:border-primary focus:ring-1 focus:ring-primary text-on-surface font-body-md px-4 py-3" id="email" placeholder="ana@email.com" type="email"/>
+</div>
+<div>
+<label class="block font-label-caps text-on-surface-variant mb-2" for="tipo_reforma">Tipo de reforma</label>
+<select class="w-full bg-surface-container-low border-outline-variant/50 rounded focus:border-primary focus:ring-1 focus:ring-primary text-on-surface font-body-md px-4 py-3" id="tipo_reforma">
+<option>Reforma Integral</option>
+<option>Reforma de Cocina</option>
+<option>Reforma de Baños</option>
+<option>Otro</option>
+</select>
+</div>
+<div>
+<label class="block font-label-caps text-on-surface-variant mb-2" for="mensaje">Breve descripción del proyecto</label>
+<textarea class="w-full bg-surface-container-low border-outline-variant/50 rounded focus:border-primary focus:ring-1 focus:ring-primary text-on-surface font-body-md px-4 py-3" id="mensaje" placeholder="Cuéntanos un poco sobre tu vivienda y qué te gustaría conseguir..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container px-8 py-4 rounded-DEFAULT font-label-caps text-label-caps hover:bg-primary hover:text-on-primary transition-colors text-center" type="submit">
+                    Solicitar mi presupuesto gratuito
+                </button>
+</form>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="bg-surface-container dark:bg-inverse-surface border-t border-on-surface/10 full-width transition-opacity duration-200">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-section-gap px-gutter py-20 max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1">
+<a class="font-display-lg text-headline-md text-on-surface dark:text-inverse-on-surface mb-4 block" href="#" style="font-size: 24px;">
+                    Heritage Modern
+                </a>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant mb-6">
+                    Creando espacios extraordinarios que perduran en el tiempo. Artesanía y diseño unidos.
+                </p>
+<div class="flex gap-4">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+</div>
+</div>
+<div class="col-span-1 md:col-span-1">
+<h4 class="font-label-caps text-label-caps text-primary dark:text-primary-fixed-dim mb-6">SERVICIOS</h4>
+<ul class="space-y-4">
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary hover:underline decoration-primary/30 underline-offset-4 transition-colors" href="#">Integral Reforms</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary hover:underline decoration-primary/30 underline-offset-4 transition-colors" href="#">Kitchens</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary hover:underline decoration-primary/30 underline-offset-4 transition-colors" href="#">Bathrooms</a></li>
+</ul>
+</div>
+<div class="col-span-1 md:col-span-1">
+<h4 class="font-label-caps text-label-caps text-primary dark:text-primary-fixed-dim mb-6">LEGAL</h4>
+<ul class="space-y-4">
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary hover:underline decoration-primary/30 underline-offset-4 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary hover:underline decoration-primary/30 underline-offset-4 transition-colors" href="#">Legal Notice</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary hover:underline decoration-primary/30 underline-offset-4 transition-colors" href="#">Cookies</a></li>
+</ul>
+</div>
+<div class="col-span-1 md:col-span-1">
+<h4 class="font-label-caps text-label-caps text-primary dark:text-primary-fixed-dim mb-6">CONTACTO</h4>
+<ul class="space-y-4">
+<li class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant">+34 900 111 222</li>
+<li class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant">hola@heritagemodern.es</li>
+<li class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant">Calle de la Artesanía, 12, Madrid</li>
+</ul>
+</div>
+</div>
+<div class="px-gutter pb-8 max-w-container-max mx-auto text-center md:text-left border-t border-on-surface/5 pt-8">
+<p class="font-body-md text-body-md text-sm text-on-surface-variant/70">
+                © 2024 Heritage Modern Remodeling. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>
